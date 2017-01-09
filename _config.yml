@@ -16,7 +16,7 @@
 title: gi¡!○
 email: gise11e@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  Filmmaker & marketeer turned coder interested in V.R, emerging trends and game-changing tech solutions. I'm passionate about creating meaningful products and solving complex problems through functional design while putting emphasis on great UX/UI first.
+  summary
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gise11e
