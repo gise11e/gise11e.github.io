@@ -6,4 +6,4 @@ image: snakify.gif
 ---
 JS/HTML/PHP/CSS
 
-game of Snake built using vanilla JS and CSS. Design concept of space race.
+game of Snake built with vanilla JS and CSS. Design concept of space race.
