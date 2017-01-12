@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  PUMPKR
+title:  🎃 PUMPKR
 gurl: https://pumpkr.herokuapp.com/
 image: pum.gif
 ---
