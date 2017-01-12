@@ -1,6 +1,22 @@
 ---
 layout: default
 ---
+<script type="text/javascript">
+
+ var projects = document.querySelectorAll('#projects .project-details');
+   for (i=0; i < projects.length; i++){
+   projects[i].onclick(function(){
+     this.className + " hover";
+   });
+ }
+ //
+ // mobile.callback  = function(){
+ //   className += "hover";
+ //   }
+ // }
+
+
+ </script>
 <body class="projectsC">
 <div class="container">
   <nav class="projectsNav">
