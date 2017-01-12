@@ -7,4 +7,4 @@ image: pum.gif
 
 JS/HTML/CSS
 
- Halloween inspired to pumpkin-carver app. Built with Node.js and MongoDB.
+ Halloween inspired pumpkin-carver app built with Node.js and MongoDB.
