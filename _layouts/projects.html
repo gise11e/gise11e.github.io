@@ -4,12 +4,12 @@ layout: default
 <body class="projectsC">
 <div class="container">
   <nav class="projectsNav">
-      <a href="https://gise11e.github.io">HOME</a>
+      <a href="{{site.url}}">HOME</a>
   </nav>
 <div id="projects">
   <div class="row">
     {% for project in site.projects %}
-    <div class="project one-half column" style="background-image:url(/assets/images/{{project.image}})">
+    <div class="project column" style="background-image:url(/assets/images/{{project.image}})">
       <div class="project-details">
           <h4 class="projectTitles">{{project.title}}</h4>
           <div class="project-description">
