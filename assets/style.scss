@@ -4,13 +4,161 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` and set theme here
-@import
-        "theme-{{ site.theme_color | default: "light" }}.scss"
-        // "theme-{{ site.theme_fonts | default: "system" }}.scss"
-;
+@import "skeleton.scss";
 
-#title1 {
+.container {
+  text-align: center;
+  color: black;
+
+}
+.projectsC {
+  background-color: #f9e0ff;
+  footer {
+    margin-top: 50px;
+
+  }
+}
+.projectTitles {
+  font-family: andale mono;
+  font-weight: bold;
+  font-size: 33px;
+}
+.projectLink {
+  a {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 3px solid #333;
+    font-weight: bold;
+
+    &:hover {
+      background: #fffc75;
+      border-bottom: 3px solid #333;
+      color: #333;
+    }
+  }
+}
+.titleG {
+  margin-top: 15px;
   text-align: center;
   color: black;
   font-size: 90px;
+  font-family: andale mono;
+
+}
+
+#summary {
+  font-size:22px;
+  font-family: andale mono;
+}
+
+.social-links {
+  list-style: none;
+
+  li {
+    display: inline-block;
+  }
+}
+.home {
+  // background-image: url(../assets/images/bg2.gif);
+  // background-size: cover;
+  background-color: #fffc75;
+}
+.home footer {
+  margin-top: 50px;
+
+}
+img {
+  max-width:100px;
+  border-radius:50px;
+}
+.projectsNav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  a {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    background: #f9e0ff;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 3px solid #333;
+
+    &:hover {
+      background: #fffc75;
+      border-bottom: 3px solid #333;
+      color: #333;
+
+    }
+  }
+}
+#primary-nav {
+  clear: both;
+
+  ul {
+    list-style: none;
+    display: inline-block;
+  }
+  li {
+    display: inline-block;
+    margin: 0 20px;
+    a {
+      text-align: center;
+      margin-left: 15%;
+      display: inline-block;
+      padding: 10px;
+      // background: #ccc;
+      background: #f9e0ff;
+      text-decoration: none;
+      color: #333;
+      border-bottom: 3px solid #333;
+
+      &:hover {
+        background: #333;
+        border-bottom: 3px solid #f9e0ff;
+        color: #fff;
+
+      }
+    }
+  }
+}
+
+#projects {
+
+  .project {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    min-height: 450px;
+    max-width: 440px;
+    background-size: cover;
+    margin-top: 30px;
+
+  }
+
+  .project-details {
+    background: rgba(255,255,255,0.9);
+    display: block;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    padding: 2px;
+
+    .project-description {
+      overflow: hidden;
+      max-height: 0;
+      font-family: andale mono;
+      font-weight: bold;
+      padding: 10px;
+    }
+  }
+
+  .project-details:hover .project-description {
+    max-height: 400px;
+    transition: max-height 0.6s ease;
+  }
+
 }

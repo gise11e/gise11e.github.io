@@ -1,21 +1,27 @@
 ---
 layout: default
 ---
-<article class="container mx-auto px-2">
-
-  {% include page_heading.html %}
-
-  <div class="prose mb-4 py-4">
-    <p>Here are my projects from WDI at General Assembly:</p>
-    <ul>
-      {% for project in site.projects %}
-        <li>
-          <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-        </li>
-          <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-        <li>
-        </li>
-      {% endfor %}
-    </ul>
+<body class="projectsC">
+<div class="container">
+  <nav class="projectsNav">
+      <a href="{{site.url}}">HOME</a>
+  </nav>
+<div id="projects">
+  <div class="row">
+    {% for project in site.projects %}
+    <div class="project one-half column" style="background-image:url(/assets/images/{{project.image}})">
+      <div class="project-details">
+          <h4 class="projectTitles">{{project.title}}</h4>
+          <div class="project-description">
+            {{project.content}}
+            <div class="projectLink">
+              <a onclick="window.open(this.href);return false;" href="{{project.gurl}}">PLAY IT</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    {% endfor %}
   </div>
-</article>
+</div>
+</div>
+</body>
