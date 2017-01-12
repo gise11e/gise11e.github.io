@@ -25,7 +25,7 @@ github_username:  gise11e
 
 # Build settings
 markdown: kramdown
-theme: jekyll-athena
+# theme: jekyll-athena
 gems:
   - jekyll-feed
 exclude:
