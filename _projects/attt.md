@@ -6,4 +6,4 @@ image: ttt.png
 ---
 JS/HTML/PHP/CSS
 
-3D-styled AI classic game of tic-tac-toe. built with vanilla JS and CSS.
+3D-styled AI game of tic-tac-toe built with vanilla JS and CSS.
